@@ -1,7 +1,7 @@
 from maze import Maze
 from unittest import TestCase
 
-class Pruebas(TestCase):
+class TryTesting(TestCase):
 	def prueba_maze1(self):
 		maze = Maze("maze1.txt")
 		maze.solve()
